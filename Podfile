@@ -5,6 +5,8 @@ def shared_pods
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'IQKeyboardManagerSwift'
+    pod 'RxSwift'
+    pod 'RxCocoa'
 end
 
 
