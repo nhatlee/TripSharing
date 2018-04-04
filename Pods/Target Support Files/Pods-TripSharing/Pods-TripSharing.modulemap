@@ -1,0 +1,6 @@
+framework module Pods_TripSharing {
+  umbrella header "Pods-TripSharing-umbrella.h"
+
+  export *
+  module * { export * }
+}

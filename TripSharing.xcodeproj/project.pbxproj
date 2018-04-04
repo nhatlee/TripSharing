@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		882E2767D593CBC5DB9073AB /* Pods_TripSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8EF2003014439662C46215 /* Pods_TripSharing.framework */; };
+		AC9C05875C52FEA7B8055784 /* Pods_TripSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2A54C0984BA76B04606F9FC /* Pods_TripSharingUITests.framework */; };
+		DD8710BE20751866001FAB6C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8710BD20751866001FAB6C /* SignupViewController.swift */; };
+		DD9E07422074BF440071F8FF /* TripSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07412074BF440071F8FF /* TripSharingTests.swift */; };
+		DD9E074D2074BF440071F8FF /* TripSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E074C2074BF440071F8FF /* TripSharingUITests.swift */; };
+		DD9E07692074BFD80071F8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9E075D2074BFD70071F8FF /* Assets.xcassets */; };
+		DD9E076A2074BFD80071F8FF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9E075E2074BFD70071F8FF /* Info.plist */; };
+		DD9E076C2074BFD80071F8FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07652074BFD80071F8FF /* AppDelegate.swift */; };
+		DD9E076D2074BFD80071F8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9E07672074BFD80071F8FF /* LaunchScreen.storyboard */; };
+		DD9E076E2074BFD80071F8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9E07682074BFD80071F8FF /* Main.storyboard */; };
+		DD9E07702074C5AB0071F8FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9E076F2074C5AB0071F8FF /* GoogleService-Info.plist */; };
+		DD9E07732074CA640071F8FF /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07722074CA640071F8FF /* FirebaseManager.swift */; };
+		DD9E07742074CA640071F8FF /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07722074CA640071F8FF /* FirebaseManager.swift */; };
+		DD9E07752074CA640071F8FF /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07722074CA640071F8FF /* FirebaseManager.swift */; };
+		DD9E07782074CCCA0071F8FF /* FirebaseServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07772074CCCA0071F8FF /* FirebaseServices.swift */; };
+		DD9E077A2074CDBF0071F8FF /* ClientService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07792074CDBF0071F8FF /* ClientService.swift */; };
+		DD9E077C2074D2790071F8FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E077B2074D2790071F8FF /* LoginViewController.swift */; };
+		DD9E077E2074D7F50071F8FF /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E077D2074D7F50071F8FF /* UserModel.swift */; };
+		DD9E07802074D81F0071F8FF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E077F2074D81F0071F8FF /* LoginViewModel.swift */; };
+		DD9E07832074DF330071F8FF /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07822074DF330071F8FF /* Optional+Extension.swift */; };
+		DD9E07852074E3740071F8FF /* ClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9E07842074E3740071F8FF /* ClientProtocol.swift */; };
+		E71D1F088503FED76588BBE3 /* Pods_TripSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFABAE5485140DFE4829913C /* Pods_TripSharingTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD9E073E2074BF440071F8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9E07212074BF410071F8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9E07282074BF410071F8FF;
+			remoteInfo = TripSharing;
+		};
+		DD9E07492074BF440071F8FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9E07212074BF410071F8FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9E07282074BF410071F8FF;
+			remoteInfo = TripSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45578B60A7A06EB25C16E4DF /* Pods-TripSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSharingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripSharingTests/Pods-TripSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A28210C93A0D3664EFEFB759 /* Pods-TripSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripSharing/Pods-TripSharing.release.xcconfig"; sourceTree = "<group>"; };
+		AECF51178CF4D6A4E7DBF752 /* Pods-TripSharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSharingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripSharingUITests/Pods-TripSharingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2A54C0984BA76B04606F9FC /* Pods_TripSharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripSharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFABAE5485140DFE4829913C /* Pods_TripSharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripSharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0BE1065823E193E48CED30 /* Pods-TripSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSharingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripSharingUITests/Pods-TripSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8710BD20751866001FAB6C /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		DD9E07292074BF410071F8FF /* TripSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9E073D2074BF440071F8FF /* TripSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9E07412074BF440071F8FF /* TripSharingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSharingTests.swift; sourceTree = "<group>"; };
+		DD9E07432074BF440071F8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9E07482074BF440071F8FF /* TripSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9E074C2074BF440071F8FF /* TripSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSharingUITests.swift; sourceTree = "<group>"; };
+		DD9E074E2074BF440071F8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9E075D2074BFD70071F8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD9E075E2074BFD70071F8FF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9E07652074BFD80071F8FF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD9E07672074BFD80071F8FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD9E07682074BFD80071F8FF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DD9E076F2074C5AB0071F8FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD9E07722074CA640071F8FF /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		DD9E07772074CCCA0071F8FF /* FirebaseServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseServices.swift; sourceTree = "<group>"; };
+		DD9E07792074CDBF0071F8FF /* ClientService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientService.swift; sourceTree = "<group>"; };
+		DD9E077B2074D2790071F8FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD9E077D2074D7F50071F8FF /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		DD9E077F2074D81F0071F8FF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		DD9E07822074DF330071F8FF /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		DD9E07842074E3740071F8FF /* ClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientProtocol.swift; sourceTree = "<group>"; };
+		E2EC4D004612E1232EFB3F48 /* Pods-TripSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TripSharing/Pods-TripSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		ECEDE936956F61CFB1FD792C /* Pods-TripSharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TripSharingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TripSharingTests/Pods-TripSharingTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE8EF2003014439662C46215 /* Pods_TripSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TripSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD9E07262074BF410071F8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882E2767D593CBC5DB9073AB /* Pods_TripSharing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9E073A2074BF440071F8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71D1F088503FED76588BBE3 /* Pods_TripSharingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9E07452074BF440071F8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9C05875C52FEA7B8055784 /* Pods_TripSharingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8282A5023A5636DF31C290FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2EC4D004612E1232EFB3F48 /* Pods-TripSharing.debug.xcconfig */,
+				A28210C93A0D3664EFEFB759 /* Pods-TripSharing.release.xcconfig */,
+				45578B60A7A06EB25C16E4DF /* Pods-TripSharingTests.debug.xcconfig */,
+				ECEDE936956F61CFB1FD792C /* Pods-TripSharingTests.release.xcconfig */,
+				DD0BE1065823E193E48CED30 /* Pods-TripSharingUITests.debug.xcconfig */,
+				AECF51178CF4D6A4E7DBF752 /* Pods-TripSharingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD23DF037E6D0BA098A7F100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE8EF2003014439662C46215 /* Pods_TripSharing.framework */,
+				BFABAE5485140DFE4829913C /* Pods_TripSharingTests.framework */,
+				B2A54C0984BA76B04606F9FC /* Pods_TripSharingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9E07202074BF410071F8FF = {
+			isa = PBXGroup;
+			children = (
+				DD9E072B2074BF410071F8FF /* TripSharing */,
+				DD9E07402074BF440071F8FF /* TripSharingTests */,
+				DD9E074B2074BF440071F8FF /* TripSharingUITests */,
+				DD9E072A2074BF410071F8FF /* Products */,
+				8282A5023A5636DF31C290FD /* Pods */,
+				BD23DF037E6D0BA098A7F100 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9E072A2074BF410071F8FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07292074BF410071F8FF /* TripSharing.app */,
+				DD9E073D2074BF440071F8FF /* TripSharingTests.xctest */,
+				DD9E07482074BF440071F8FF /* TripSharingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD9E072B2074BF410071F8FF /* TripSharing */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07642074BFD80071F8FF /* Application */,
+				DD9E075B2074BFD70071F8FF /* Models */,
+				DD9E075C2074BFD70071F8FF /* Resources */,
+				DD9E07662074BFD80071F8FF /* Storyboards */,
+				DD9E075F2074BFD70071F8FF /* Utilities */,
+				DD9E07612074BFD70071F8FF /* ViewControllers */,
+				DD9E07632074BFD70071F8FF /* ViewModels */,
+				DD9E07762074CCA70071F8FF /* Services */,
+				DD9E075A2074BFD70071F8FF /* Views */,
+			);
+			path = TripSharing;
+			sourceTree = "<group>";
+		};
+		DD9E07402074BF440071F8FF /* TripSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07412074BF440071F8FF /* TripSharingTests.swift */,
+				DD9E07432074BF440071F8FF /* Info.plist */,
+			);
+			path = TripSharingTests;
+			sourceTree = "<group>";
+		};
+		DD9E074B2074BF440071F8FF /* TripSharingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E074C2074BF440071F8FF /* TripSharingUITests.swift */,
+				DD9E074E2074BF440071F8FF /* Info.plist */,
+			);
+			path = TripSharingUITests;
+			sourceTree = "<group>";
+		};
+		DD9E075A2074BFD70071F8FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD9E075B2074BFD70071F8FF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E077D2074D7F50071F8FF /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD9E075C2074BFD70071F8FF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E075D2074BFD70071F8FF /* Assets.xcassets */,
+				DD9E075E2074BFD70071F8FF /* Info.plist */,
+				DD9E076F2074C5AB0071F8FF /* GoogleService-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD9E075F2074BFD70071F8FF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07812074DF240071F8FF /* Extensions */,
+				DD9E07602074BFD70071F8FF /* Constants */,
+				DD9E07712074CA4D0071F8FF /* FirebaseManager */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DD9E07602074BFD70071F8FF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DD9E07612074BFD70071F8FF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E077B2074D2790071F8FF /* LoginViewController.swift */,
+				DD8710BD20751866001FAB6C /* SignupViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DD9E07632074BFD70071F8FF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E077F2074D81F0071F8FF /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD9E07642074BFD80071F8FF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07652074BFD80071F8FF /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		DD9E07662074BFD80071F8FF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07672074BFD80071F8FF /* LaunchScreen.storyboard */,
+				DD9E07682074BFD80071F8FF /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DD9E07712074CA4D0071F8FF /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07722074CA640071F8FF /* FirebaseManager.swift */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		DD9E07762074CCA70071F8FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07772074CCCA0071F8FF /* FirebaseServices.swift */,
+				DD9E07792074CDBF0071F8FF /* ClientService.swift */,
+				DD9E07842074E3740071F8FF /* ClientProtocol.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DD9E07812074DF240071F8FF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD9E07822074DF330071F8FF /* Optional+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD9E07282074BF410071F8FF /* TripSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9E07512074BF440071F8FF /* Build configuration list for PBXNativeTarget "TripSharing" */;
+			buildPhases = (
+				9C335B8410CBA6C8EDA309E2 /* [CP] Check Pods Manifest.lock */,
+				DD9E07252074BF410071F8FF /* Sources */,
+				DD9E07262074BF410071F8FF /* Frameworks */,
+				DD9E07272074BF410071F8FF /* Resources */,
+				EA5D26C01D8F172734836F1B /* [CP] Embed Pods Frameworks */,
+				77BD671E028C0F1C279628C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripSharing;
+			productName = TripSharing;
+			productReference = DD9E07292074BF410071F8FF /* TripSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9E073C2074BF440071F8FF /* TripSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9E07542074BF440071F8FF /* Build configuration list for PBXNativeTarget "TripSharingTests" */;
+			buildPhases = (
+				6895A8E6B8358DA3322B9625 /* [CP] Check Pods Manifest.lock */,
+				DD9E07392074BF440071F8FF /* Sources */,
+				DD9E073A2074BF440071F8FF /* Frameworks */,
+				DD9E073B2074BF440071F8FF /* Resources */,
+				31ADD330DF3944E2DA51EDF9 /* [CP] Embed Pods Frameworks */,
+				F492B914FE5B671A11AA6E70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9E073F2074BF440071F8FF /* PBXTargetDependency */,
+			);
+			name = TripSharingTests;
+			productName = TripSharingTests;
+			productReference = DD9E073D2074BF440071F8FF /* TripSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9E07472074BF440071F8FF /* TripSharingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9E07572074BF440071F8FF /* Build configuration list for PBXNativeTarget "TripSharingUITests" */;
+			buildPhases = (
+				6F9A6B6B276E7583241E3E32 /* [CP] Check Pods Manifest.lock */,
+				DD9E07442074BF440071F8FF /* Sources */,
+				DD9E07452074BF440071F8FF /* Frameworks */,
+				DD9E07462074BF440071F8FF /* Resources */,
+				8BD613A5614254C75B81197A /* [CP] Embed Pods Frameworks */,
+				9F46A13F1FF7A06A4FDD7F59 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9E074A2074BF440071F8FF /* PBXTargetDependency */,
+			);
+			name = TripSharingUITests;
+			productName = TripSharingUITests;
+			productReference = DD9E07482074BF440071F8FF /* TripSharingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9E07212074BF410071F8FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = nhatlee;
+				TargetAttributes = {
+					DD9E07282074BF410071F8FF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DD9E073C2074BF440071F8FF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DD9E07282074BF410071F8FF;
+					};
+					DD9E07472074BF440071F8FF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DD9E07282074BF410071F8FF;
+					};
+				};
+			};
+			buildConfigurationList = DD9E07242074BF410071F8FF /* Build configuration list for PBXProject "TripSharing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD9E07202074BF410071F8FF;
+			productRefGroup = DD9E072A2074BF410071F8FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9E07282074BF410071F8FF /* TripSharing */,
+				DD9E073C2074BF440071F8FF /* TripSharingTests */,
+				DD9E07472074BF440071F8FF /* TripSharingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD9E07272074BF410071F8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9E076D2074BFD80071F8FF /* LaunchScreen.storyboard in Resources */,
+				DD9E076A2074BFD80071F8FF /* Info.plist in Resources */,
+				DD9E07702074C5AB0071F8FF /* GoogleService-Info.plist in Resources */,
+				DD9E07692074BFD80071F8FF /* Assets.xcassets in Resources */,
+				DD9E076E2074BFD80071F8FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9E073B2074BF440071F8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9E07462074BF440071F8FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31ADD330DF3944E2DA51EDF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripSharingTests/Pods-TripSharingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6895A8E6B8358DA3322B9625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripSharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F9A6B6B276E7583241E3E32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripSharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BD671E028C0F1C279628C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripSharing/Pods-TripSharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD613A5614254C75B81197A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripSharingUITests/Pods-TripSharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C335B8410CBA6C8EDA309E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TripSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F46A13F1FF7A06A4FDD7F59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripSharingUITests/Pods-TripSharingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5D26C01D8F172734836F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TripSharing/Pods-TripSharing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripSharing/Pods-TripSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F492B914FE5B671A11AA6E70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TripSharingTests/Pods-TripSharingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD9E07252074BF410071F8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9E077C2074D2790071F8FF /* LoginViewController.swift in Sources */,
+				DD9E07832074DF330071F8FF /* Optional+Extension.swift in Sources */,
+				DD8710BE20751866001FAB6C /* SignupViewController.swift in Sources */,
+				DD9E07732074CA640071F8FF /* FirebaseManager.swift in Sources */,
+				DD9E076C2074BFD80071F8FF /* AppDelegate.swift in Sources */,
+				DD9E07782074CCCA0071F8FF /* FirebaseServices.swift in Sources */,
+				DD9E077E2074D7F50071F8FF /* UserModel.swift in Sources */,
+				DD9E07852074E3740071F8FF /* ClientProtocol.swift in Sources */,
+				DD9E077A2074CDBF0071F8FF /* ClientService.swift in Sources */,
+				DD9E07802074D81F0071F8FF /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9E07392074BF440071F8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9E07742074CA640071F8FF /* FirebaseManager.swift in Sources */,
+				DD9E07422074BF440071F8FF /* TripSharingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9E07442074BF440071F8FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD9E07752074CA640071F8FF /* FirebaseManager.swift in Sources */,
+				DD9E074D2074BF440071F8FF /* TripSharingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD9E073F2074BF440071F8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9E07282074BF410071F8FF /* TripSharing */;
+			targetProxy = DD9E073E2074BF440071F8FF /* PBXContainerItemProxy */;
+		};
+		DD9E074A2074BF440071F8FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9E07282074BF410071F8FF /* TripSharing */;
+			targetProxy = DD9E07492074BF440071F8FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD9E074F2074BF440071F8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9E07502074BF440071F8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD9E07522074BF440071F8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2EC4D004612E1232EFB3F48 /* Pods-TripSharing.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5TBLESEBG;
+				INFOPLIST_FILE = "$(SRCROOT)/TripSharing/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhatlee.TripSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD9E07532074BF440071F8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28210C93A0D3664EFEFB759 /* Pods-TripSharing.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5TBLESEBG;
+				INFOPLIST_FILE = "$(SRCROOT)/TripSharing/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhatlee.TripSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD9E07552074BF440071F8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45578B60A7A06EB25C16E4DF /* Pods-TripSharingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5TBLESEBG;
+				INFOPLIST_FILE = TripSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NhatLe.TripSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripSharing.app/TripSharing";
+			};
+			name = Debug;
+		};
+		DD9E07562074BF440071F8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEDE936956F61CFB1FD792C /* Pods-TripSharingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5TBLESEBG;
+				INFOPLIST_FILE = TripSharingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NhatLe.TripSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripSharing.app/TripSharing";
+			};
+			name = Release;
+		};
+		DD9E07582074BF440071F8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0BE1065823E193E48CED30 /* Pods-TripSharingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5TBLESEBG;
+				INFOPLIST_FILE = TripSharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NhatLe.TripSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripSharing;
+			};
+			name = Debug;
+		};
+		DD9E07592074BF440071F8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECF51178CF4D6A4E7DBF752 /* Pods-TripSharingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5TBLESEBG;
+				INFOPLIST_FILE = TripSharingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NhatLe.TripSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripSharing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD9E07242074BF410071F8FF /* Build configuration list for PBXProject "TripSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9E074F2074BF440071F8FF /* Debug */,
+				DD9E07502074BF440071F8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9E07512074BF440071F8FF /* Build configuration list for PBXNativeTarget "TripSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9E07522074BF440071F8FF /* Debug */,
+				DD9E07532074BF440071F8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9E07542074BF440071F8FF /* Build configuration list for PBXNativeTarget "TripSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9E07552074BF440071F8FF /* Debug */,
+				DD9E07562074BF440071F8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9E07572074BF440071F8FF /* Build configuration list for PBXNativeTarget "TripSharingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9E07582074BF440071F8FF /* Debug */,
+				DD9E07592074BF440071F8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD9E07212074BF410071F8FF /* Project object */;
+}
